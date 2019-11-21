@@ -1,0 +1,262 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.fix01 {
+  height: 500px;
+  background-color: #0E0D07;
+  /* position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0; */
+  /* overflow: scroll; */
+}
+.fix02 {
+  width: 450px;
+  height: 250px;
+  position: absolute;
+  left: 10%;
+  margin-top: 150px;
+}
+.fix03 {
+  background-color: #F6CD1C;
+  height: 500px;
+  margin-left: 800px;
+  width: 450px;
+  border-radius: 800px 800px 0 0;
+  box-shadow: inset 40px 40px rgba(0, 0, 0, 0.15);
+  background-image: url("characters.png");
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+.fix02,
+.fix03 {
+  box-sizing: border-box;
+  padding: 10px;
+  display: inline-block;
+}
+.fix04 {
+    height: 400px;
+    background-color: #fff; 
+}
+.fix05 {
+  width: 400px;
+  height: 400px;
+}
+.fix06 {
+  width: 450px;
+  height: 250px;
+  position: absolute;
+  right: 10%;
+  margin-top: -300px;
+}
+.fix07 {
+    height: 350px;
+    background-color:#D4F2FF;
+}
+.fix08 {
+  width: 450px;
+  height: 250px;
+  position: absolute;
+  left: 10%;
+  margin-top: 50px;
+}
+.fix10 {
+    height: 320px;
+    background-color:#fff;
+}
+.fix11 {
+  width: 600px;
+  height: 250px;
+  position: absolute;
+  left: 10%;
+  margin-top: -280px;
+}
+.card01 {
+  background-color: #89F393;
+  width: 290px;
+  height: 60px;
+  display: inline-block;
+  border-radius:30px ;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.10), 0 6px 6px rgba(0,0,0,0.18);
+}
+.card02 {
+  background-color: #89F393;
+  width: 220px;
+  height: 60px;
+  display: inline-block;
+  border-radius:30px ;
+  margin-left: 10px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.10), 0 6px 6px rgba(0,0,0,0.18);
+}
+.card03 {
+  background-color: #89F393;
+  width: 310px;
+  height: 60px;
+  border-radius:30px ;
+  margin-top: 10px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.10), 0 6px 6px rgba(0,0,0,0.18);
+}
+.image{
+  width: 80px;
+  height: 40px;
+  display: inline-block;
+  margin-top: 10px;
+}
+.para {
+  width: 190px;
+  height: 60px;
+  display: inline-block;
+  margin: 0 auto;
+  vertical-align: top;
+}
+.para01 {
+  width: 90px;
+  height: 60px;
+  display: inline-block;
+  margin: 0 auto;
+  vertical-align: top;
+}
+.fix13 {
+  height: 500px;
+  position: relative;
+z-index: 0;
+}
+.fix14 {
+  width: 650px;
+  height: 280px;
+  position: absolute;
+  margin-top: 80px;
+  background-color: #eeeeee;
+  border-radius: 0px 100px 100px 0px;
+  position: absolute;
+z-index: 1;
+}
+.para02 {
+  margin-left: 100px;
+}
+.fix15 {
+  width: 800px;
+  height: 400px;
+  margin-left: 450px;
+  position: absolute;
+z-index: 2;
+}
+.fix16 {
+  width: 350px;
+  height: 130px;
+  position: relative;
+  background-color: #FEDA23;
+  display: inline-block;
+  border-radius : 60px 0px 60px; 
+  margin-left: 15px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.10), 0 6px 6px rgba(0,0,0,0.18);
+}
+.fix17 {
+  width: 350px;
+  height: 130px;
+  position: relative;
+  background-color: #FEDA23;
+  display: inline-block;
+  margin-top: 10px;
+  border-radius : 60px 0px 60px; 
+  margin-left: 15px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.10), 0 6px 6px rgba(0,0,0,0.18);
+}
+.fix18 {
+  width: 228px;
+  height: 130px;
+  position: relative;
+  background-color: #FEDA23;
+  display: inline-block;
+  margin-top: 10px;
+  border-radius : 60px 0px 60px; 
+  margin-left: 15px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.10), 0 6px 6px rgba(0,0,0,0.18);
+}
+.para03 {
+  left: 18%;
+position: absolute;
+top: 20%;
+}
+.fix19 {
+  height: 350px;
+  background-color: #181818;
+  
+}
+.fix20 {
+  width: 400px;
+  height:150px;
+  display: inline-block;
+  margin-top: 50px;
+  position: relative;
+  margin-left: 20px;
+}
+li {
+  margin-left: 90px;
+  list-style-type: none;
+  color: #fff;
+  margin-top: 10px;
+  
+}
+li a {
+  color: white;
+  text-decoration: none;
+}
+.fix21 {
+  height: 50px;
+  width: 400px;
+  display: inline-block;
+  margin-left: 160px;
+  position: relative;
+}
+.fa {
+  padding: 5px;
+  font-size: 20px;
+  width: 10px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+  background: #fff;
+  color: #000000;
+  border-radius: 50%;
+  width: 18px;
+}
+.fa-twitter {
+  background: #fff;
+  color:#000000;
+  border-radius: 50%;
+  width: 18px;
+}
+.fa-youtube {
+  background: white;
+  color: black;
+  border-radius: 50%;
+  width: 18px;
+}
+.fa-instagram {
+  background: white;
+  color: black;
+  border-radius: 50%;
+  width: 18px;
+}
+
+
+
+
+
+
+
+@font-face {
+  font-family: polly;
+  src: url(fonts/PollyRounded/PollyRounded-Regular.ttf);
+}
+h1, h2, h3, h4, h5, h6, p, li {
+  font-family: polly, Helvetica, Arial, sans-serif;
+}
